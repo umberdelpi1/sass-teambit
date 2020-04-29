@@ -1,0 +1,118 @@
+// ******************* ||||||| REGOLE GENERALI |||||||******************
+* {
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// esempio
+// .classePadre {
+//
+//   color:red;
+//
+//   .classeFiglio {
+//     color:green;
+//   }
+//
+//   ul {
+//     li {
+//       color:green;
+//     }
+//   }
+// }
+
+// ******************* ||||||| NAVBAR |||||||******************
+header {
+  height: 70px;
+  width: 80%;
+  margin: 0 auto;
+  // debug
+  border-bottom: solid grey 1px;
+}
+
+.nav_bar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // debug
+  border: solid green 1px;
+}
+
+.logo_sx {
+  // debug
+  border: solid blue 1px;
+  padding: 5px;
+}
+
+
+.menu_dx {
+  width: 40%;
+  border: solid purple 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    // debug
+    border: solid red 1px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+button img {
+  height: 20px;
+  width: 20px;
+}
+
+button {
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  border: solid blue 1px;
+  color: blue;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// ******************* ||||||| JUMBOTRON |||||||******************
+
+.container-jumbotron {
+  height: 600px;
+  width: 100%;
+  display: flex;
+
+  // debug
+  background-color: lightgreen;
+}
+
+.container-sx {
+  height: 600px;
+  width: 50%;
+
+  // debug
+  background-color: red;
+}
+
+.container-dx {
+  height: 600px;
+  width: 50%;
+
+  // debug
+  background-color: blue;
+}
