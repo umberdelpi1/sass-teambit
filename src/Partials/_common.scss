@@ -1,0 +1,38 @@
+// |||||||||||||| ********* REGOLE GENERALI *********  |||||||||||||
+@mixin generalRules {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #58402c;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+}
+
+
+// |||||||||||||| ********* FLEX *********  |||||||||||||
+@mixin flexPuro {
+  display: flex;
+}
+
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flexColumnCenter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

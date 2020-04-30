@@ -1,25 +1,12 @@
+
+@import "Partials/common";
+@import "Partials/variabili";
+
 // ******************* ||||||| REGOLE GENERALI |||||||******************
 * {
-  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @include generalRules;
 }
-// esempio
-// .classePadre {
-//
-//   color:red;
-//
-//   .classeFiglio {
-//     color:green;
-//   }
-//
-//   ul {
-//     li {
-//       color:green;
-//     }
-//   }
-// }
+
 
 // ******************* ||||||| NAVBAR |||||||******************
 header {
@@ -33,9 +20,7 @@ header {
 .nav_bar {
   height: 70px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flexSpaceBetween;
   // debug
   border: solid green 1px;
 }
@@ -50,9 +35,7 @@ header {
 .menu_dx {
   width: 40%;
   border: solid purple 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter;
 
   li {
     font-size: 12px;
@@ -65,17 +48,12 @@ header {
     border: solid red 1px;
 
     a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      color: brown;
+      @include flexCenter;
     }
   }
 }
 
-button img {
-  height: 20px;
-  width: 20px;
-}
 
 button {
   height: 40px;
@@ -85,34 +63,61 @@ button {
   color: blue;
   font-weight: 400;
   font-size: 14px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  @include flexSpaceAround;
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  i {
+    display: none;
+  }
+  &:hover {
+    background: blue;
+    color: white;
+    font-weight: 500;
+    transition: 1s;
+    img {
+      display: none;
+    }
+    i {
+      color: white;
+      display: block;
+    }
+  }
+
 }
 
 // ******************* ||||||| JUMBOTRON |||||||******************
 
 .container-jumbotron {
-  height: 600px;
+  height: $height;
   width: 100%;
-  display: flex;
-
+  @include flexPuro;
   // debug
-  background-color: lightgreen;
+
 }
 
 .container-sx {
-  height: 600px;
+  height: $height;
   width: 50%;
+  @include flexColumnCenter;
 
   // debug
-  background-color: red;
+  border: solid red 2px;
+  h1 {
+    font-size: 60px;
+    line-height: 10px;
+  }
 }
 
 .container-dx {
-  height: 600px;
+  height: $height;
   width: 50%;
-
+  @include flexCenter;
   // debug
-  background-color: blue;
+  border: solid blue 2px;
+  img {
+    height: 400px;
+    width: 100%;
+  }
 }

@@ -1,8 +1,9 @@
 * {
-  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #58402c;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
 }
 
 header {
@@ -45,14 +46,10 @@ header {
 }
 
 .menu_dx li a {
+  color: brown;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-button img {
-  height: 20px;
-  width: 20px;
 }
 
 button {
@@ -68,22 +65,62 @@ button {
   align-items: center;
 }
 
+button img {
+  height: 20px;
+  width: 20px;
+}
+
+button i {
+  display: none;
+}
+
+button:hover {
+  background: blue;
+  color: white;
+  font-weight: 500;
+  transition: 1s;
+}
+
+button:hover img {
+  display: none;
+}
+
+button:hover i {
+  color: white;
+  display: block;
+}
+
 .container-jumbotron {
   height: 600px;
   width: 100%;
   display: flex;
-  background-color: lightgreen;
 }
 
 .container-sx {
   height: 600px;
   width: 50%;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: solid red 2px;
+}
+
+.container-sx h1 {
+  font-size: 60px;
+  line-height: 10px;
 }
 
 .container-dx {
   height: 600px;
   width: 50%;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid blue 2px;
+}
+
+.container-dx img {
+  height: 400px;
+  width: 100%;
 }
 
