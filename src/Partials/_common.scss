@@ -13,6 +13,12 @@
   display: flex;
 }
 
+@mixin flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 @mixin flexSpaceBetween {
   display: flex;
   justify-content: space-between;
@@ -35,4 +41,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+// |||||||||||||| ********* IMG *********  |||||||||||||
+@mixin imgSocialSize {
+  height: 15px;
+  width: 15px;
 }

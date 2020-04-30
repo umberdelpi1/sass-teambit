@@ -52,7 +52,7 @@ header {
   align-items: center;
 }
 
-button {
+.bottone-gmail {
   height: 40px;
   width: 90px;
   border-radius: 10px;
@@ -65,27 +65,28 @@ button {
   align-items: center;
 }
 
-button img {
-  height: 20px;
-  width: 20px;
+.bottone-gmail .gmail {
+  height: 15px;
+  width: 15px;
+  display: block;
 }
 
-button i {
+.bottone-gmail i {
   display: none;
 }
 
-button:hover {
+.bottone-gmail:hover {
   background: blue;
   color: white;
   font-weight: 500;
   transition: 1s;
 }
 
-button:hover img {
+.bottone-gmail:hover .gmail {
   display: none;
 }
 
-button:hover i {
+.bottone-gmail:hover i {
   color: white;
   display: block;
 }
@@ -107,7 +108,15 @@ button:hover i {
 
 .container-sx h1 {
   font-size: 60px;
-  line-height: 10px;
+  line-height: 70px;
+}
+
+.container-sx h2 {
+  width: 70%;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 35px;
+  padding-top: 15px;
 }
 
 .container-dx {
@@ -122,5 +131,61 @@ button:hover i {
 .container-dx img {
   height: 400px;
   width: 100%;
+}
+
+.social-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  border: solid black 1px;
+}
+
+.social-button .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #30488f;
+  color: white;
+}
+
+.social-button .button1 .gmail {
+  height: 15px;
+  width: 15px;
+}
+
+.social-button .button1:hover {
+  background-color: #233569;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.social-button p {
+  padding: 10px;
+}
+
+.social-button .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #30488f;
+  color: white;
+}
+
+.social-button .button2 .gmail {
+  height: 15px;
+  width: 15px;
+}
+
+.social-button .button2:hover {
+  background-color: #233569;
+  font-weight: 500;
+  transition: 0.5s;
 }
 
