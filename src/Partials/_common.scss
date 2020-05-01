@@ -1,4 +1,5 @@
 // |||||||||||||| ********* REGOLE GENERALI *********  |||||||||||||
+// 7-
 @mixin generalRules {
   margin: 0;
   padding: 0;
@@ -7,58 +8,61 @@
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
 }
 
-// |||||||||||||| ********* CONTAINER / HEADER *********  |||||||||||||
-@mixin container {
-
-}
-
 // |||||||||||||| ********* FLEX *********  |||||||||||||
+// 27-95-135-255
 @mixin flexPuro {
   display: flex;
 }
-
+//
 @mixin flexStart {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
+//33-
+@mixin flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+// 25
 @mixin flexSpaceBetween {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+// 36-50-125-140-160-202-283-
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+// 66-
 @mixin flexSpaceAround {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
+// 209-225-241-290-306-322-335-
 @mixin flexColumnCenter {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-
+// 104-
 @mixin flexColumn {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 // |||||||||||||| ********* IMG *********  |||||||||||||
+// 68-147-167-
 @mixin imgSocialSize {
   height: 15px;
   width: 15px;
 }
-
+// 324-
 @mixin imgGatto {
   height: 110px;
     width: 70px;

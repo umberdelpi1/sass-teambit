@@ -9,13 +9,11 @@
 header {
   width: 100%;
   margin: 0 auto;
-  border-bottom: solid grey 1px;
 }
 
 header .container {
   width: 80%;
   margin: 0 auto;
-  border-bottom: solid grey 1px;
 }
 
 header .container .nav_bar {
@@ -24,17 +22,14 @@ header .container .nav_bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid green 1px;
 }
 
 header .container .nav_bar .logo_sx {
-  border: solid blue 1px;
   padding: 5px;
 }
 
 header .container .nav_bar .menu_dx {
   min-width: 40%;
-  border: solid purple 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +42,6 @@ header .container .nav_bar .menu_dx li {
   list-style-type: none;
   padding: 5px 20px;
   text-decoration: none;
-  border: solid red 1px;
 }
 
 header .container .nav_bar .menu_dx li a {
@@ -103,21 +97,20 @@ header .container .nav_bar .menu_dx li a {
   margin: 0 auto;
 }
 
-.container-sx {
+.container-jumbotron .container-sx {
   height: 600px;
   width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: solid red 2px;
 }
 
-.container-sx h1 {
+.container-jumbotron .container-sx h1 {
   font-size: 60px;
   line-height: 70px;
 }
 
-.container-sx h2 {
+.container-jumbotron .container-sx h2 {
   width: 70%;
   font-size: 21px;
   font-weight: 100;
@@ -125,27 +118,12 @@ header .container .nav_bar .menu_dx li a {
   padding-top: 15px;
 }
 
-.container-dx {
-  height: 600px;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid blue 2px;
-}
-
-.container-dx img {
-  height: 400px;
-  width: 100%;
-}
-
-.social-button {
+.container-jumbotron .container-sx .social-button {
   display: flex;
   padding: 10px 0;
-  border: solid black 1px;
 }
 
-.social-button .button1 {
+.container-jumbotron .container-sx .social-button .button1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,22 +134,22 @@ header .container .nav_bar .menu_dx li a {
   color: white;
 }
 
-.social-button .button1 .gmail {
+.container-jumbotron .container-sx .social-button .button1 .gmail {
   height: 15px;
   width: 15px;
 }
 
-.social-button .button1:hover {
+.container-jumbotron .container-sx .social-button .button1:hover {
   background-color: #233569;
   font-weight: 500;
   transition: 0.3s;
 }
 
-.social-button p {
+.container-jumbotron .container-sx .social-button p {
   padding: 10px;
 }
 
-.social-button .button2 {
+.container-jumbotron .container-sx .social-button .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,19 +160,32 @@ header .container .nav_bar .menu_dx li a {
   color: white;
 }
 
-.social-button .button2 .gmail {
+.container-jumbotron .container-sx .social-button .button2 .gmail {
   height: 15px;
   width: 15px;
 }
 
-.social-button .button2:hover {
+.container-jumbotron .container-sx .social-button .button2:hover {
   background-color: #233569;
   font-weight: 500;
   transition: 0.5s;
 }
 
+.container-jumbotron .container-dx {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-jumbotron .container-dx img {
+  height: 400px;
+  width: 100%;
+}
+
 .sezione-completa {
-  height: 2500px;
+  height: 2170px;
   width: 100%;
   background-color: #ffe7d2;
 }
@@ -401,11 +392,92 @@ header .container .nav_bar .menu_dx li a {
 
 .sezione-completa .sezione-down .immagine-singola {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sezione-completa .sezione-down .immagine-singola img {
   height: 286px;
   width: 280px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.sezione-completa .sezione-down .immagine-singola h2 {
+  font-size: 30px;
+}
+
+.sezione2-completa {
+  height: 640px;
+  width: 100%;
+  display: flex;
+}
+
+.sezione2-completa .box1 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sezione2-completa .box1 img {
+  height: 470px;
+  width: 768px;
+}
+
+.sezione2-completa .box2 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione2-completa .box2 .box3 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione2-completa .box2 .box3 .titolo1 {
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.sezione2-completa .box2 .box3 .titolo1 h1 {
+  font-size: 26px;
+}
+
+.sezione2-completa .box2 .box3 .titolo2 {
+  height: 150px;
+  width: 100%;
+}
+
+.sezione2-completa .box2 .box3 .titolo2 h2 {
+  font-size: 23px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.sezione2-completa .box2 .box3 .titolo2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.sezione2-completa .box2 .box3 .titolo2 a i {
+  color: #30488f;
+}
+
+.sezione2-completa .box2 .box3 .img3 {
+  height: 240px;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.sezione2-completa .box2 .box3 .img3 img {
+  padding-top: 20px;
+  height: 240px;
+  width: 330px;
   margin: 0 auto;
 }
 
