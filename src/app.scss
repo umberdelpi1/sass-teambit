@@ -1,4 +1,4 @@
-// |||||||||  ******************* IMPORT PARTIALS ||||||||
+// |||||||||  ********* IMPORT PARTIALS ||||||||
 @import "Partials/common";
 @import "Partials/variabili";
 @import "Partials/struttura";
@@ -8,7 +8,7 @@
 }
 
 
-// *******************  NAVBAR |||||||******************
+// *******************  NAVBAR    |||||||******************
 @include navBar;
 
 @include bottoneGmail;
@@ -23,3 +23,9 @@
 @include section2;
 
 // *******************  SECTION 3 |||||||******************
+@include section3;
+
+// *******************  SECTION 4 |||||||******************
+@include section4;
+// *******************  SECTION 5 |||||||******************
+@include section5;

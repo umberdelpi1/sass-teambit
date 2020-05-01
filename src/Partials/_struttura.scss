@@ -241,7 +241,6 @@
         height: 1000px;
         width: 70%;
         margin: 100px auto;
-        border-bottom: solid grey 1px;
         .text {
           text-align: center;
           height: 100px;
@@ -380,6 +379,193 @@
               margin: 0 auto;
             }
           }
+        }
+      }
+    }
+  }
+
+  //  ||||||||||||||||| SECTION 3 |||||||||||||||||||
+  @mixin section3 {
+    .sezione3-completa {
+    height: 700px;
+    width: 100%;
+    @include flexPuro;
+      .box2-1 {
+        height: 600px;
+        width: 50%;
+        @include flexEnd;
+        .box3-1 {
+          height: 600px;
+          width: 50%;
+          .titolo1-1 {
+            height: 70px;
+            width: 100%;
+            margin-top: 50px;
+            h1 {
+              font-size: 26px;
+            }
+          }
+          .titolo2-1 {
+            height: 150px;
+            width: 100%;
+            h2 {
+              font-size: 23px;
+              font-weight: 200;
+              padding-bottom: 30px;
+            }
+            a {
+              text-decoration: none;
+              font-size: 20px;
+              color: #30488f;
+              i {
+                color: #30488f;
+              }
+            }
+          }
+          .img3-1 {
+            height: 240px;
+            width: 330px;
+            margin: 60px auto;
+            @include flexStart;
+            img {
+              height: 330px;
+              width: 280px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+      .box1-1 {
+        height: 600px;
+        width: 50%;
+        @include flexStart;
+        img {
+          height: 470px;
+          width: 768px;
+        }
+      }
+    }
+  }
+
+  //  ||||||||||||||||| SECTION 4 |||||||||||||||||||
+  @mixin section4 {
+    .sezione4-completa {
+    height: 700px;
+    width: 100%;
+    @include flexPuro;
+      .box1-2 {
+        height: 600px;
+        width: 50%;
+        @include flexEnd;
+        img {
+          height: 470px;
+          width: 768px;
+        }
+      }
+      .box2-2 {
+        height: 600px;
+        width: 50%;
+        .box3-2{
+          height: 600px;
+          width: 50%;
+          .titolo1-2 {
+            height: 100px;
+            width: 100%;
+            margin-top: 50px;
+            h1 {
+              font-size: 26px;
+            }
+          }
+          .titolo2-2 {
+            height: 150px;
+            width: 100%;
+            h2 {
+              font-size: 23px;
+              font-weight: 200;
+              padding-bottom: 30px;
+            }
+            a {
+              text-decoration: none;
+              font-size: 20px;
+              color: #30488f;
+              i {
+                color: #30488f;
+              }
+            }
+          }
+          .img3-2 {
+            height: 240px;
+            width: 330px;
+            margin: 0 auto;
+            img {
+              padding-top: 20px;
+              height: 240px;
+              width: 330px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  //  ||||||||||||||||| SECTION 5 |||||||||||||||||||
+  @mixin section5 {
+    .sezione5-completa {
+    height: 700px;
+    width: 100%;
+    @include flexPuro;
+      .box2-3 {
+        height: 600px;
+        width: 50%;
+        @include flexEnd;
+        .box3-3 {
+          height: 600px;
+          width: 50%;
+          .titolo1-3 {
+            height: 70px;
+            width: 100%;
+            margin-top: 5px;
+            h1 {
+              font-size: 26px;
+            }
+          }
+          .titolo2-3 {
+            height: 150px;
+            width: 100%;
+            h2 {
+              font-size: 23px;
+              font-weight: 200;
+              padding-bottom: 30px;
+            }
+            a {
+              text-decoration: none;
+              font-size: 20px;
+              color: #30488f;
+              i {
+                color: #30488f;
+              }
+            }
+          }
+          .img3-3 {
+            height: 240px;
+            width: 330px;
+            margin: 60px auto;
+            @include flexStart;
+            img {
+              height: 330px;
+              width: 280px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+      .box1-3 {
+        height: 600px;
+        width: 50%;
+        @include flexStart;
+        img {
+          height: 600px;
+          width: 768px;
         }
       }
     }

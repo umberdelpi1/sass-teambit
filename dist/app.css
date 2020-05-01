@@ -299,7 +299,6 @@ header .container .nav_bar .menu_dx li a {
   height: 1000px;
   width: 70%;
   margin: 100px auto;
-  border-bottom: solid grey 1px;
 }
 
 .sezione-completa .sezione-down .text {
@@ -479,5 +478,234 @@ header .container .nav_bar .menu_dx li a {
   height: 240px;
   width: 330px;
   margin: 0 auto;
+}
+
+.sezione3-completa {
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+
+.sezione3-completa .box2-1 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sezione3-completa .box2-1 .box3-1 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo1-1 {
+  height: 70px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo1-1 h1 {
+  font-size: 26px;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo2-1 {
+  height: 150px;
+  width: 100%;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo2-1 h2 {
+  font-size: 23px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo2-1 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.sezione3-completa .box2-1 .box3-1 .titolo2-1 a i {
+  color: #30488f;
+}
+
+.sezione3-completa .box2-1 .box3-1 .img3-1 {
+  height: 240px;
+  width: 330px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sezione3-completa .box2-1 .box3-1 .img3-1 img {
+  height: 330px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.sezione3-completa .box1-1 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sezione3-completa .box1-1 img {
+  height: 470px;
+  width: 768px;
+}
+
+.sezione4-completa {
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+
+.sezione4-completa .box1-2 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sezione4-completa .box1-2 img {
+  height: 470px;
+  width: 768px;
+}
+
+.sezione4-completa .box2-2 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione4-completa .box2-2 .box3-2 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo1-2 {
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo1-2 h1 {
+  font-size: 26px;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo2-2 {
+  height: 150px;
+  width: 100%;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo2-2 h2 {
+  font-size: 23px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo2-2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.sezione4-completa .box2-2 .box3-2 .titolo2-2 a i {
+  color: #30488f;
+}
+
+.sezione4-completa .box2-2 .box3-2 .img3-2 {
+  height: 240px;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.sezione4-completa .box2-2 .box3-2 .img3-2 img {
+  padding-top: 20px;
+  height: 240px;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.sezione5-completa {
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+
+.sezione5-completa .box2-3 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sezione5-completa .box2-3 .box3-3 {
+  height: 600px;
+  width: 50%;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo1-3 {
+  height: 70px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo1-3 h1 {
+  font-size: 26px;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo2-3 {
+  height: 150px;
+  width: 100%;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo2-3 h2 {
+  font-size: 23px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo2-3 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.sezione5-completa .box2-3 .box3-3 .titolo2-3 a i {
+  color: #30488f;
+}
+
+.sezione5-completa .box2-3 .box3-3 .img3-3 {
+  height: 240px;
+  width: 330px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sezione5-completa .box2-3 .box3-3 .img3-3 img {
+  height: 330px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.sezione5-completa .box1-3 {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sezione5-completa .box1-3 img {
+  height: 600px;
+  width: 768px;
 }
 
