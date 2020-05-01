@@ -41,14 +41,18 @@ header .container .nav_bar .menu_dx li {
   display: inline-block;
   list-style-type: none;
   padding: 5px 20px;
-  text-decoration: none;
 }
 
 header .container .nav_bar .menu_dx li a {
-  color: brown;
+  text-decoration: none;
+  color: #58402c;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header .container .nav_bar .menu_dx li:hover a {
+  color: #30488f;
 }
 
 .bottone-gmail {
@@ -75,10 +79,10 @@ header .container .nav_bar .menu_dx li a {
 }
 
 .bottone-gmail:hover {
-  background: blue;
+  background: #30488f;
   color: white;
   font-weight: 500;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .bottone-gmail:hover .gmail {
@@ -116,11 +120,17 @@ header .container .nav_bar .menu_dx li a {
   font-weight: 100;
   line-height: 35px;
   padding-top: 15px;
+  margin-top: 20px;
+}
+
+.container-jumbotron .container-sx a i {
+  padding-left: 7px;
 }
 
 .container-jumbotron .container-sx .social-button {
   display: flex;
   padding: 10px 0;
+  margin-top: 20px;
 }
 
 .container-jumbotron .container-sx .social-button .button1 {
@@ -169,6 +179,14 @@ header .container .nav_bar .menu_dx li a {
   background-color: #233569;
   font-weight: 500;
   transition: 0.5s;
+}
+
+.container-jumbotron .container-sx a {
+  font-size: 14px;
+  color: #58402c;
+  text-decoration: none;
+  font-weight: 100;
+  padding-top: 20px;
 }
 
 .container-jumbotron .container-dx {
@@ -707,5 +725,209 @@ header .container .nav_bar .menu_dx li a {
 .sezione5-completa .box1-3 img {
   height: 600px;
   width: 768px;
+}
+
+.sezione6 {
+  height: 900px;
+  width: 100%;
+  background-color: #ffe7d2;
+  padding-top: 30px;
+}
+
+.sezione6 .box6 {
+  height: 900px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.sezione6 .box6 .text6 {
+  height: 100px;
+  width: 50%;
+  margin: 60px auto;
+}
+
+.sezione6 .box6 .text6 h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.sezione6 .box6 .info6 {
+  height: 500px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 7px;
+  border: solid #cbcbcb 1px;
+  position: relative;
+}
+
+.sezione6 .box6 .info6 i {
+  position: absolute;
+  top: -23px;
+  left: 0;
+  font-size: 45px;
+  color: #30488f;
+}
+
+.sezione6 .box6 .info6 .info6-1 {
+  height: 350px;
+  width: 87%;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+.sezione6 .box6 .info6 .info6-1 p:nth-child(1) {
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.sezione6 .box6 .info6 .info6-1 p:nth-child(2) {
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.sezione6 .box6 .info6 .info6-1 p:nth-child(3) {
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.sezione6 .box6 .info6 .info6-1 p:nth-child(4) {
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.sezione6 .box6 .info6 .img-contact {
+  height: 100px;
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sezione6 .box6 .info6 .img-contact .img-circle {
+  height: 80px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sezione6 .box6 .info6 .img-contact .img-circle .circle1 {
+  height: 60px;
+  width: 60px;
+}
+
+.sezione6 .box6 .info6 .img-contact .img-circle .circle1 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: solid grey 1px;
+}
+
+.sezione6 .box6 .info6 .img-contact .img-circle .circle2 {
+  height: 60px;
+  width: 60px;
+  padding-left: 10px;
+}
+
+.sezione6 .box6 .info6 .img-contact .img-circle .circle2 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: solid grey 1px;
+}
+
+.sezione6 .box6 .info6 .img-contact .info-founder {
+  height: 80px;
+  width: 40%;
+}
+
+.sezione6 .box6 .info6 .img-contact .info-founder .ceo {
+  height: 40px;
+  width: 100%;
+}
+
+.sezione6 .box6 .info6 .img-contact .info-founder .ceo p {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #30488f;
+}
+
+.sezione6 .box6 .info6 .img-contact .info-founder .info-ceo {
+  height: 40px;
+  width: 100%;
+}
+
+.sezione6 .box6 .info6 .img-contact .info-founder .info-ceo p {
+  font-size: 13px;
+  color: #58402c;
+}
+
+.sezione6 .box6 .btn-social {
+  height: 100px;
+  width: 36%;
+  margin: 0 auto;
+}
+
+.sezione6 .box6 .btn-social .social-button {
+  display: flex;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.sezione6 .box6 .btn-social .social-button .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #30488f;
+  color: white;
+}
+
+.sezione6 .box6 .btn-social .social-button .button1 .gmail {
+  height: 15px;
+  width: 15px;
+}
+
+.sezione6 .box6 .btn-social .social-button .button1:hover {
+  background-color: #233569;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.sezione6 .box6 .btn-social .social-button p {
+  padding: 10px;
+}
+
+.sezione6 .box6 .btn-social .social-button .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #30488f;
+  color: white;
+}
+
+.sezione6 .box6 .btn-social .social-button .button2 .gmail {
+  height: 15px;
+  width: 15px;
+}
+
+.sezione6 .box6 .btn-social .social-button .button2:hover {
+  background-color: #233569;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.sezione6 .box6 .btn-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
 }
 

@@ -1,8 +1,8 @@
-// |||||||||  ********* IMPORT PARTIALS ||||||||
+// |||||||||  ********* IMPORT PARTIALS ||||||||***********
 @import "Partials/common";
 @import "Partials/variabili";
 @import "Partials/struttura";
-// *******************  REGOLE GENERALI |||||||******************
+// *******************  REGOLE GENERALI |||||||************
 * {
   @include generalRules;
 }
@@ -10,7 +10,6 @@
 
 // *******************  NAVBAR    |||||||******************
 @include navBar;
-
 @include bottoneGmail;
 
 // *******************  JUMBOTRON |||||||******************
@@ -27,5 +26,9 @@
 
 // *******************  SECTION 4 |||||||******************
 @include section4;
+
 // *******************  SECTION 5 |||||||******************
 @include section5;
+
+// *******************  SECTION 6 |||||||******************
+@include section6;

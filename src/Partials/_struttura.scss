@@ -24,10 +24,15 @@
               display: inline-block;
               list-style-type: none;
               padding: 5px 20px;
-              text-decoration: none;
               a {
-                color: brown;
+                text-decoration: none;
+                color: #58402c;
                 @include flexCenter;
+              }
+              &:hover {
+                a {
+                  color: #30488f;
+                }
               }
             }
           }
@@ -54,10 +59,10 @@
         display: $none;
       }
       &:hover {
-        background: blue;
+        background: #30488f;
         color: white;
         font-weight: 500;
-        transition: 1s;
+        transition: 0.3s;
         .gmail {
           display: $none;
         }
@@ -93,10 +98,17 @@
           font-weight: 100;
           line-height: 35px;
           padding-top: $paddingTop;
+          margin-top: $marginTop;
+        }
+        a {
+          i {
+            padding-left: 7px;
+          }
         }
         .social-button {
           @include flexPuro;
           padding: 10px 0;
+          margin-top: $marginTop;
           .button1 {
             @include flexCenter;
             width: 26%;
@@ -133,6 +145,13 @@
               transition: 0.5s;
             }
           }
+        }
+        a {
+          font-size: 14px;
+          color: #58402c;
+          text-decoration: none;
+          font-weight: 100;
+          padding-top: 20px;
         }
       }
 
@@ -566,6 +585,173 @@
         img {
           height: 600px;
           width: 768px;
+        }
+      }
+    }
+  }
+
+  //  ||||||||||||||||| SECTION 5 |||||||||||||||||||
+  @mixin section6 {
+    .sezione6 {
+      height: 900px;
+      width: 100%;
+      background-color: #ffe7d2;
+      padding-top: 30px;
+      .box6 {
+        height: 900px;
+        width: 70%;
+        margin: $margin0Auto;
+        .text6 {
+          height: 100px;
+          width: 50%;
+          margin: 60px auto;
+          h1 {
+            font-size: 42px;
+            text-align: center;
+          }
+        }
+        .info6 {
+          height: 500px;
+          width: 60%;
+          margin: $margin0Auto;
+          background-color: white;
+          border-radius: 7px;
+          border: solid rgb(203,203,203) 1px;
+          position: relative;
+          i {
+            position: absolute;
+            top: -23px;
+            left: 0;
+            font-size: 45px;
+            color: #30488f;
+          }
+          .info6-1 {
+            height: 350px;
+            width: 87%;
+            margin: 20px auto;
+            padding-top: 20px;
+            p:nth-child(1){
+              padding-bottom: $paddingBottom;
+              line-height: $line-height3;
+            }
+            p:nth-child(2){
+              padding-bottom: $paddingBottom;
+              line-height: $line-height3;
+            }
+            p:nth-child(3){
+              padding-bottom: $paddingBottom;
+              line-height: $line-height3;
+            }
+            p:nth-child(4){
+              padding-bottom: $paddingBottom;
+              line-height: $line-height3;
+            }
+          }
+          .img-contact {
+            height: 100px;
+            width: 87%;
+            margin: $margin0Auto;
+            @include flexPuro;
+            .img-circle{
+              height: 80px;
+              width: 30%;
+              @include flexCenter;
+              .circle1 {
+                height: 60px;
+                width: 60px;
+                img {
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  border: solid grey 1px;
+                }
+              }
+              .circle2 {
+                height: 60px;
+                width: 60px;
+                padding-left: 10px;
+                img {
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  border: solid grey 1px;
+                }
+              }
+            }
+            .info-founder {
+              height: 80px;
+              width: 40%;
+              .ceo {
+                height: 40px;
+                width: 100%;
+                p {
+                  padding-top: 20px;
+                  font-size: 15px;
+                  color: #30488f;
+                }
+              }
+              .info-ceo {
+                height: 40px;
+                width: 100%;
+                p {
+                  font-size: 13px;
+                  color: #58402c;
+                }
+              }
+            }
+          }
+        }
+        .btn-social {
+          height: 100px;
+          width: 36%;
+          margin: $margin0Auto;
+          .social-button {
+            @include flexPuro;
+            padding: 10px 0;
+            margin-top: $marginTop;
+            .button1 {
+              @include flexCenter;
+              width: 50%;
+              height: 40px;
+              border-radius: 10px;
+              background-color: #30488f;
+              color: white;
+              .gmail{
+                @include imgSocialSize;
+              }
+              &:hover {
+                background-color: #233569;
+                font-weight: 500;
+                transition: 0.3s;
+              }
+            }
+
+            p{
+              padding: 10px;
+            }
+            .button2 {
+              @include flexCenter;
+              width: 50%;
+              height: 40px;
+              border-radius: 10px;
+              background-color: #30488f;
+              color: white;
+              .gmail{
+                @include imgSocialSize;
+              }
+              &:hover {
+                background-color: #233569;
+                font-weight: 500;
+                transition: 0.5s;
+              }
+            }
+          }
+          a {
+            @include flexCenter;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: center;
+          }
         }
       }
     }
