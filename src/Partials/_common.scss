@@ -1,5 +1,5 @@
 // |||||||||||||| ********* REGOLE GENERALI *********  |||||||||||||
-// 7-
+// 
 @mixin generalRules {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 }
 
 // |||||||||||||| ********* FLEX *********  |||||||||||||
-// 27-95-135-255
+//
 @mixin flexPuro {
   display: flex;
 }
@@ -19,51 +19,75 @@
   justify-content: flex-start;
   align-items: center;
 }
-//33-400
+//
 @mixin flexEnd {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-// 25
+//
 @mixin flexSpaceBetween {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-// 36-50-125-140-160-202-283-
+//
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-// 66-
+//
 @mixin flexSpaceAround {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-// 209-225-241-290-306-322-335-
+//
 @mixin flexColumnCenter {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-// 104-
+//
 @mixin flexColumn {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 // |||||||||||||| ********* IMG *********  |||||||||||||
-// 68-147-167-
+//
 @mixin imgSocialSize {
   height: 15px;
   width: 15px;
 }
-// 324-
+//
 @mixin imgGatto {
   height: 110px;
     width: 70px;
+}
+
+// |||||||||||||| ********* LIST FOOTER *********  |||||||||||||
+@mixin spanUlLi {
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: $line-height4;
+  }
+  ul {
+    li {
+      list-style-type: none;
+      line-height: $line-height3;
+      a {
+        text-decoration: none;
+      }
+      &:hover {
+        a {
+          color: #233569;
+        }
+      }
+    }
+  }
 }

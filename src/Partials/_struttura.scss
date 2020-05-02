@@ -1,5 +1,5 @@
 
-//  ||||||||||||||||| NAV-BAR |||||||||||||||||||
+  //  ||||||||||||||||| NAV-BAR |||||||||||||||||||
   @mixin navBar {
     header {
       width: 100%;
@@ -40,7 +40,7 @@
       }
     }
     }
-// Bottone Gmail in navbar
+  // Bottone Gmail in navbar
   @mixin bottoneGmail {
     .bottone-gmail {
       height: 40px;
@@ -75,7 +75,7 @@
     }
   }
 
-//  ||||||||||||||||| JUMBOTRON |||||||||||||||||||
+  //  ||||||||||||||||| JUMBOTRON |||||||||||||||||||
 
   @mixin jumboTron {
     .container-jumbotron {
@@ -751,6 +751,69 @@
             font-size: 14px;
             text-decoration: none;
             text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  //  ||||||||||||||||| FOOTER |||||||||||||||||||
+  @mixin footer {
+    footer {
+      width: 100%;
+      .container-footer {
+        height: 420px;
+        width: 70%;
+        margin: 80px auto;
+        @include flexPuro;
+        .footer-sx {
+          height: 100px;
+          width: 30%;
+          @include flexPuro;
+          .logo-smile {
+            height: 100px;
+            width: 30%;
+            @include flexCenter;
+            img {
+              height: 80px;
+              width: 60px;
+            }
+          }
+          .logo-text {
+            height: 100px;
+            width: 70%;
+            @include flexCenter;
+            h2 {
+              font-size: 15px;
+              a {
+                text-decoration: none;
+                color: #30488f;
+                &:hover {
+                  color: #233569;
+                }
+              }
+            }
+          }
+        }
+        .footer-list-dx {
+          height: 500px;
+          width: 70%;
+          @include flexPuro;
+          .list-a {
+            @include spanUlLi;
+            padding: $padding2030;
+          }
+          .list-b {
+            @include spanUlLi;
+            padding: $padding2030;
+          }
+          .list-c {
+            @include spanUlLi;
+            padding: $padding2030;
+          }
+          .list-d {
+            @include spanUlLi;
+            padding: $padding2030;
           }
         }
       }
