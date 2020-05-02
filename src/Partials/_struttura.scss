@@ -770,6 +770,7 @@
           height: 100px;
           width: 30%;
           @include flexPuro;
+          padding-top: $paddingTop;
           .logo-smile {
             height: 100px;
             width: 30%;

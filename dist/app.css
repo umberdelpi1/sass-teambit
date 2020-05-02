@@ -946,6 +946,7 @@ footer .container-footer .footer-sx {
   height: 100px;
   width: 30%;
   display: flex;
+  padding-top: 15px;
 }
 
 footer .container-footer .footer-sx .logo-smile {
