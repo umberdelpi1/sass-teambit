@@ -2,22 +2,29 @@
   //  ||||||||||||||||| NAV-BAR |||||||||||||||||||
   @mixin navBar {
     header {
+      height: 70px;
       width: 100%;
-      margin: $margin0Auto;
+      .bordo {
+        border-bottom: solid grey 1px;
+      }
       .container{
-        width: 80%;
+        width: 100%;
+        background: white;
+        position: $fixed;
+        z-index: 999;
         margin: $margin0Auto;
+        top: 0;
         .nav_bar {
           height: 70px;
-          width: 100%;
+          width: 80%;
+          margin: $margin0Auto;
           @include flexSpaceBetween;
           .logo_sx {
             padding: 5px;
           }
           .menu_dx {
             min-width: 40%;
-            @include flexCenter;
-
+            @include flexEnd;
             li {
               font-size: 12px;
               font-weight: 600;
@@ -39,8 +46,9 @@
         }
       }
     }
-    }
+  }
   // Bottone Gmail in navbar
+
   @mixin bottoneGmail {
     .bottone-gmail {
       height: 40px;
@@ -73,7 +81,20 @@
         }
       }
     }
+    .buttonblue{
+      background: #30488f;
+      color: white;
+      .gmail {
+        display: none;
+      }
+      i {
+        color: white;
+        display: $block;
+      }
+    }
   }
+
+
 
   //  ||||||||||||||||| JUMBOTRON |||||||||||||||||||
 
@@ -590,7 +611,7 @@
     }
   }
 
-  //  ||||||||||||||||| SECTION 5 |||||||||||||||||||
+  //  ||||||||||||||||| SECTION 6 |||||||||||||||||||
   @mixin section6 {
     .sezione6 {
       height: 900px;
